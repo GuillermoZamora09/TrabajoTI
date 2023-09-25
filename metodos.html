@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metodos De Peticion</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul class="inter">
+      <li>
+        <a class="intervinculo" href="estroctura.html">
+          Estructura y funcionamiento del protocolo
+        </a>
+      </li>
+      <li>
+        <a class="intervinculo2" href="metodos.html"> Metodos de peticion</a>
+      </li>
+      <li>
+        <a class="intervinculo3" href="codigos.html"> codigos de respuesta</a>
+      </li>
+      <li><a class="intervinculo4" href="index.html">protocolo HTTP</a></li>
+      <li>
+        <a class="intervinculo5" href="puertos de red.html">Puertos de red</a>
+    </li>
+    </ul>
+    <p class="mt">Metodos de Peticion</p>
+
+    <p class="mt2">
+      HTTP define un conjunto de métodos de petición para indicar la acción que
+      se desea realizar para un recurso determinado. Aunque estos también pueden
+      ser sustantivos, estos métodos de solicitud a veces son llamados HTTP
+      verbs. Cada uno de ellos implementan una semántica diferente, pero algunas
+      características similares son compartidas por un grupo de ellos: ej. un
+      request method puede ser safe, idempotent (en-US), o cacheable.
+      representan de qué forma se esta accediendo al servidor cuando se están
+      ejecutando peticiones http por parte del cliente. Si no sabes qué método
+      se está utilizando, pero desea saberlo, puedes utilizar la herramienta de
+      devtools, de la que hablamos en un artículo sobre para qué sirve devtools.
+      Esta te presentará toda la información acerca de tu script y del producto
+      que estás desarrollando.
+    </p>
+    <div class="img5">
+      <img src="ddd.png" width="400px" />
+    </div>
+    <p class="mt3">
+      <b>GET:</b> el método GET es el más habitual. Cuando tú pides algo, el
+      servidor te responderá con las peticiones solucionadas.método
+      <b>HEAD</b> es similar al anterior en cuanto a hace una solicitud al
+      servidor, pero solo responde con parte de la información. Esto significa
+      que te entregará los encabezados de respuesta y de solicitud, pero no la
+      respuesta especifica. Esto te permite obtener información. <b>POST:</b> el
+      método POST se encarga de enviar datos a un recurso específico para que se
+      hagan allí los cambios necesarios. Se utiliza para crear objetos o datos.
+      <b>PUT:</b> el método PUT va de la mano de POST, pues se encarga de
+      modificar datos. Aquí se envían todos los datos, sin importar si se
+      cambian o no. <b>DELETE:</b> el método DELETE, como su propio nombre
+      indica, se utiliza cuando tenemos la necesidad de eliminar algún dato o
+      elemento al hacer la llamada. <b>PATCH:</b> el método PATCH tiene un cargo
+      similar al método PUT, solo que, en este caso, los datos se modificarán de
+      forma parcial. Aquí, por lo tanto, solo debes enviar los datos que se
+      necesitan modificar, mientras que los otros mantendrán el mismo valor.
+    </p>
+    <div class="img6">
+      <img src="ppp.jpg" width="400px" />
+    </div>
+    <p class="mt4">
+      Como ya hemos mencionado, estos 6 métodos de petición http son muy
+      importantes, pero no son los únicos. Hay otros métodos, como CONNECT,
+      OPTIONS, TRACE, que aunque no son muy utilizados, son realmente útiles
+      para cumplir con otros procesos para realizar llamadas a un navegador en
+      especial.
+    </p>
+  </body>
+</html>

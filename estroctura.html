@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estroctura</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul class="inter">
+      <li>
+        <a class="intervinculo" href="estroctura.html">
+          Estructura y funcionamiento del protocolo
+        </a>
+      </li> 
+      <li>
+        <a class="intervinculo2" href="metodos.html"> Metodos de peticion</a>
+      </li>
+      <li>
+        <a class="intervinculo3" href="codigos.html"> codigos de respuesta</a>
+      </li>
+      <li><a class="intervinculo4" href="index.html">protocolo HTTP</a></li>
+      <li>
+        <a class="intervinculo5" href="puertos de red.html">Puertos de red</a>
+    </li>
+    </ul>
+    <p class="es">Estructura y Funcionamiento del Protocolo</p>
+    <p class="es1">
+      Cuando escribes una dirección web en tu navegador y se abre la página que
+      deseas, es porque tu navegador se ha comunicado con el servidor web por
+      HTTP. Dicho de otra manera, el protocolo HTTP es el código o lenguaje
+      eCuando escribes una dirección web en tu navegador y se abre la página que
+      deseas, es porque tu navegador se ha comunicado con el servidor web por
+      HTTP. Dicho de otra manera, el protocolo HTTP es el código o lenguaje en
+      el que el navegador le comunica al servidor qué página quiere visualizar.n
+      el que el navegador le comunica al servidor qué página quiere visualizar.
+    </p>
+    <p class="es2">
+      La manera más fácil de explicar cómo funciona HTTP es describiendo cómo se
+      abre una página web: En la barra de direcciones del navegador, el usuario
+      teclea http://example.com/. El navegador envía esa solicitud, es decir, la
+      petición HTTP, al servidor web que administre el dominio example.com.
+      Normalmente, la solicitud del cliente dice algo así como “Envíame este
+      archivo”, pero también puede ser simplemente “¿Tienes este archivo?”. El
+      servidor web recibe la solicitud HTTP, busca el archivo en cuestión (en
+      nuestro ejemplo, la página de inicio de example.com, que corresponde al
+      archivo index.html) y envía en primer lugar una cabecera o header. Esta
+      cabecera le comunica al cliente, mediante un código de estado, el
+      resultado de la búsqueda. Para conocer más detalles acerca de los códigos
+      de estado, no te pierdas nuestro artículo al respecto. Si se ha encontrado
+      el archivo solicitado y el cliente ha solicitado recibirlo (y no solo
+      saber si existe), el servidor envía, tras el header, el message body o
+      cuerpo del mensaje, es decir, el contenido solicitado: en nuestro ejemplo,
+      el archivo index.html. El navegador recibe el archivo y lo abre en forma
+      de página web. La arquitectura del protocolo HTTP, implica que programas
+      clientes como Firefox, Chrome, Opera y Robots, establezcan conexión y
+      realicen peticiones de datos a programas servidores como Apache, Nginx,
+      entre otros. Estas peticiones son gestionadas y contestadas por los
+      servidores, a través de intermediarios denominados proxies.
+    </p>
+    <p class="es3">
+      Método: En una solicitud HTTP, el cliente especifica un método que indica
+      qué acción desea realizar en el servidor. Los métodos más comunes son:
+      GET: Solicita datos del servidor. POST: Envía datos al servidor para ser
+      procesados. PUT: Actualiza un recurso en el servidor o crea uno nuevo.
+      DELETE: Elimina un recurso en el servidor, si existe. URI (Uniform
+      Resource Identifier): La URI identifica el recurso en el servidor al que
+      se hace referencia en la solicitud. Esto puede ser una dirección URL
+      (Uniform Resource Locator) que incluye el esquema (por ejemplo,
+      "http://"), el nombre de dominio y la ruta al recurso. Versión del
+      protocolo: La solicitud HTTP incluye la versión del protocolo que el
+      cliente está utilizando (por ejemplo, HTTP/1.1). Encabezados (Headers):
+      Los encabezados son metadatos adicionales enviados con la solicitud o la
+      respuesta. Estos encabezados pueden incluir información como el tipo de
+      contenido aceptado, las cookies, la longitud del contenido, etc. Cuerpo
+      (Body): En algunas solicitudes, como las realizadas con el método POST o
+      PUT, se envía un cuerpo que contiene los datos que el servidor debe
+      procesar. Por ejemplo, en una solicitud POST, el cuerpo podría contener
+      datos de un formulario web. Una vez que el servidor recibe la solicitud,
+      procesa la información y devuelve una respuesta al cliente. La respuesta
+      HTTP tiene una estructura similar: Código de estado: Un código numérico
+      que indica si la solicitud se procesó correctamente o si se produjo algún
+      error. Algunos códigos de estado comunes son 200 (OK), 404 (No encontrado)
+      y 500 (Error interno del servidor). Mensaje de estado: Una breve
+      descripción textual del código de estado, que proporciona información
+      adicional sobre el resultado de la solicitud. Versión del protocolo: Al
+      igual que en la solicitud, la respuesta HTTP incluye la versión del
+      protocolo que se está utilizando. Encabezados (Headers): Al igual que en
+      la solicitud, la respuesta puede contener encabezados que proporcionen
+      información adicional sobre el contenido de la respuesta, como el tipo de
+      contenido y la longitud. Cuerpo (Body): La respuesta puede incluir un
+      cuerpo que contiene los datos solicitados por el cliente, como una página
+      web, una imagen, un archivo de texto, etc.
+    </p>
+    <div class="img7">
+      <img src="kkkkk.jpg" width="350px" />
+    </div>
+    
+    
+    
+  </body>
+</html>
